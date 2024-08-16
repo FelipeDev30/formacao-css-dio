@@ -1,0 +1,18 @@
+/*
+
+Exemplo de utilização do seletor de atributo
+
+
+*/
+
+[href="https://www.netflix.com"] {
+    color: red;
+}
+
+[title] {
+    color: rgb(153, 0, 255);
+}
+
+[href^="http://"]{
+    background-color: lightgreen;
+}
