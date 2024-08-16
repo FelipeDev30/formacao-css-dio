@@ -1,0 +1,21 @@
+/* Seletor de tags */
+h1 {
+    background-color: darkblue;
+    color: lightgreen;
+}
+
+nav {
+    background: lightblue;
+    color: darkblue;
+}
+
+li {
+    background-color: lightgreen;
+}
+
+/* Seletor de ID */
+
+#explicacao-seletores {
+    background-color: red;
+    color: white;
+}
