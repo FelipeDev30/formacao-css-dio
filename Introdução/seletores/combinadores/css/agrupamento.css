@@ -1,0 +1,7 @@
+.texto, #link-referencia, h1, [id^="botao"] {
+    color: red;
+}
+
+h1, [id^="botao"] {
+    background-color: rgba(148, 148, 148, 0.342);
+}
