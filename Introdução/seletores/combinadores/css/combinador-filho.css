@@ -1,0 +1,11 @@
+.fundo-azul > p{
+    background-color: lightblue;
+}
+
+.fundo-verde > p {
+    background-color: lightgreen;
+}
+
+p {
+    background-color: lightgray;
+}
