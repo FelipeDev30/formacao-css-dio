@@ -1,0 +1,27 @@
+
+/* Combinador Irmão Adjacente (Logo ao lado) 
+
+div + p {
+    color: tomato;
+}
+
+.fundo-verde + p{
+    background-color: lightgreen;
+}
+
+.fundo-azul + p{
+    background-color: lightblue;
+}
+
+*/
+
+/* Aplicando para todos os irmãos de div */
+
+div ~ p {
+    color: tomato;
+}
+
+.fundo-verde ~ p {
+    background-color: lightgreen;
+}
+
