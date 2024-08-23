@@ -1,0 +1,8 @@
+.fundo-verde span p{
+    background-color: lightgreen;
+}
+
+.fundo-verde > p{
+    background-color: lightblue;
+}
+
