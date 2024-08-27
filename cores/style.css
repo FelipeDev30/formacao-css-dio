@@ -1,0 +1,7 @@
+/* Utilização de cor pré-definida e exemplo de utilização da propriedade currentColor */
+#current-color {
+    color: deeppink;
+    border: 2px solid currentColor;
+}
+
+
