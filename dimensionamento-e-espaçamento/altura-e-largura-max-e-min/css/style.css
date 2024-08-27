@@ -1,0 +1,13 @@
+button {
+    background-color: lightblue;
+    min-width: 200px;
+    max-width: 300px;
+    min-height: 300px;
+    max-height: 300px;
+}
+
+/* 
+    Caso passe da altura máxima o conteúdo ficará para fora do container
+    Caso seja menor que o tamanho minimo o container preenche o espaço vazio expandindo.
+
+*/
