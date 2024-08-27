@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+}
+
+#elemento-01 {
+    background-color: orange;
+    margin:20px auto;
+    padding: 20px 40px;
+}
+
+#elemento-02 {
+    background-color: purple;
+    margin: 20px auto;
+    padding: 20px 40px;
+}
