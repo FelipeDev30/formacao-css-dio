@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(210, 230, 233);
+}
+
+#rgb {
+    background-color: rgb(189, 142, 142);
+}
+
+#rgba {
+    background-color: rgba(87, 177, 87, 0.479);
+}
