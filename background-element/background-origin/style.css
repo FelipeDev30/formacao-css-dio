@@ -1,0 +1,42 @@
+.exemplo {
+    width: 300px;
+    height: 300px;
+    background-image: url('/background-element/images/background-note.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 15px dashed rgba(29, 35, 39, 0.651);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+#padding-box {
+    background-origin: padding-box;
+}
+
+#border-box {
+    background-origin: border-box;
+}
+
+#content-box {
+    background-origin: content-box;
+    background-color: rgba(90, 86, 86, 0.315);
+}
+
+/* 
+
+Explicando a utilização da propriedade background-origin
+
+- padding-box: A origem do background é definida dentro dos paddings do elemento.
+
+- border-box: A origem do background é definida dentro dos bordões do elemento.
+
+- content-box: A origem do background é definida dentro do conteúdo do elemento.
+
+Caso você não especifique a origem do background-origin, a origem padrão é o content-box.
+
+Nota: O background-origin não afeta o posicionamento do background em relação aos elementos filhos. Para isso, utilize a propriedade background-position ou a combinação das duas.
+
+*/
