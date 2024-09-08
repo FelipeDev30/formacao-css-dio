@@ -1,0 +1,57 @@
+/* 
+    Estilos pré-definidos.
+    Utilize estes códigos para visualizar exemplos de gradientes e padrões.
+    Para mais detalhes, acesse:
+    projects.verou.me/css/patterns
+*/
+
+body {
+    background-color:black;
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;   
+}
+
+.exemplo {
+    width: 300px;
+    height: 300px;
+    background-color: palevioletred;
+    background-image: url('images/background-note.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.gradiente {
+    background: linear-gradient(rgba(10, 10, 10, 0.733), rgba(131, 228, 195, 0.61));
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+}
+
+.radial-gradiente {
+    background: radial-gradient(circle, rgba(10, 10, 10, 0.733), rgba(131, 228, 195, 0.61));
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+}
+
+.repeating-linear {
+    background: repeating-linear-gradient(to top, palevioletred 0 20px, lightpink 20px 40px);
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+}
