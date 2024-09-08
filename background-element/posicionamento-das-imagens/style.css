@@ -1,0 +1,80 @@
+div {
+    margin-bottom: 30px;
+}
+
+.exemplo {
+    width: 300px;
+    height: 300px;
+    background-image: url('/background-element/images/background-note.jpg');
+    background-size: 120px;
+    border: 1px solid red;
+    background-repeat: no-repeat;
+    background-position: bottom; /* Posso utilizar também as posições, top, right, left ou center */
+}
+
+.exemplo-02 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: rgba(87, 85, 85, 0.329);
+    background-size: 200px 250px;
+    background-image: url('/background-element/images/background-note.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: right bottom; /* Adicionando uma posição customizada */
+}
+
+.exemplo-03 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: rgba(87, 85, 85, 0.329);
+    background-size: cover;
+    background-image: url('/background-element/images/background-note.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: 50% 50%; /* Adicionando posições percentuais */
+}
+
+.exemplo-04 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: rgba(87, 85, 85, 0.329);
+    background-size: contain;
+    background-image: url('/background-element/images/background-note.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center; /* Adicionando posição centralizada */
+}
+
+.exemplo-05 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: rgba(87, 85, 85, 0.329);
+    background-size: 100% 100%;
+    background-image: url('/background-element/images/background-note.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: bottom 10px right 20px; /* Adicionando posição centralizada */
+}
+
+/*
+
+Comentários:
+
+    Podemos adicionar bordas para facilitar a visualização das divs.
+    Podemos utilizar background-repeat: no-repeat para não repetir a imagem.
+    Podemos utilizar background-position: center para posicionar a imagem no centro da div.
+
+    Podemos também utilizar os valores em porcentagem para as posições,
+    como em background-position: 50% 50%;
+    Mas, é mais comum utilizar valores em pixels ou unidades relativas.
+    Por exemplo, em background-position: 10px 20px;
+    
+        OBS: Os valores em pixels podem ser negativos, para deslocar a imagem para esquerda ou para baixo.
+        OBS: Os valores em porcentagem podem ser valores diferentes para as larguras e alturas, para criar um efeito de "zoom".
+        OBS: Os valores em unidades relativas podem ser em px, em%, em em, em rem, etc., para posicionar a imagem em relação ao elemento pai.
+    
+*/
