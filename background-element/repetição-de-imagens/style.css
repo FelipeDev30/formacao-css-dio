@@ -38,6 +38,26 @@ div {
     background-repeat: space;
 }
 
+.exemplo-05 {
+    background-color: lightgray;
+    width: 300px;
+    height: 300px;
+    background-image: url('/background-element/images/background-note.jpg');
+    background-size: 120px;
+    background-repeat: round;
+    background-position: center;
+}
+
+.exemplo-06 {
+    background-color: lightgray;
+    width: 300px;
+    height: 300px;
+    background-image: url('/background-element/images/background-note.jpg');
+    background-size: 120px;
+    background-repeat: repeat-x repeat-y;
+    background-position: center;
+}
+
 /* 
 
 Explicando os exemplos:
