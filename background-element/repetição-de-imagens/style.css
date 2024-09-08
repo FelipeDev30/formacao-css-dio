@@ -38,3 +38,21 @@ div {
     background-repeat: space;
 }
 
+/* 
+
+Explicando os exemplos:
+
+- background-repeat: repeat-x repete a imagem horizontalmente.
+
+- background-repeat: repeat-y repete a imagem verticalmente.
+
+- background-repeat: space repete a imagem horizontalmente, deixando espaço entre as repetições.
+
+- background-repeat: no-repeat não repete a imagem.
+
+- background-repeat: round repete a imagem redimensionada para que seja um círculo.
+
+- background-repeat: repeat-x repeat-y repete a imagem horizontalmente e verticalmente, deixando espaço entre as repetições.
+100% é o padrão, então não é necessário especificar nada para o background-repeat.
+
+*/
