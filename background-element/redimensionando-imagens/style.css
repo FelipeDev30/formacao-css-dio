@@ -1,0 +1,74 @@
+div {
+    margin-bottom: 30px;
+}
+
+.exemplo {
+    background-color: rgba(87, 85, 85, 0.329);
+    width: 300px;
+    height: 300px;
+    background-image: url('/background-element/images/background-note.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.exemplo-02 {
+    background-color: rgba(87, 85, 85, 0.329);
+    width: 300px;
+    height: 300px;
+    background-image: url('/background-element/images/background-note.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.exemplo-03 {
+    background-color: rgba(87, 85, 85, 0.329);
+    width: 300px;
+    height: 300px;
+    background-image: url('/background-element/images/background-note.jpg');
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.exemplo-04 {
+    background-color: rgba(87, 85, 85, 0.329);
+    width: 300px;
+    height: 300px;
+    background-image: url('/background-element/images/background-note.jpg');
+    background-size: 200px 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.exemplo-05 {
+    background-color: rgba(87, 85, 85, 0.329);
+    width: 300px;
+    height: 300px;
+    background-image: url('/background-element/images/background-note.jpg'), linear-gradient(lightpink, darkblue);
+    background-size: 200px 100%, cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*
+
+Explicando os exemplos:
+
+- background-size: contain; redimensiona a imagem para que ela seja inteiramente visível sem cortar nada.
+
+- background-size: cover; redimensiona a imagem para que ela seja inteiramente visível, mas pode cortar algumas partes.
+
+- 50%: redimensiona a imagem para que ela seja metade do comprimento e metade da largura.
+
+- 200px 250px: redimensiona a imagem para que seja 200px de comprimento e 250px de largura.
+
+- 200px 100%, cover: redimensiona a imagem para que seja 200px de comprimento e 100% da altura, mas pode cortar algumas partes.
+100% é o padrão, então não é necessário especificar nada para o background-size.
+
+- linear-gradient: usa gradientes linearmente. O primeiro argumento é a cor inicial, e o segundo é a cor final.
+
+- background-image: url('/background-element/images/background-note.jpg'), linear-gradient(lightpink, darkblue);: aplica um gradiente linearmente sobre a imagem.
+
+*/
